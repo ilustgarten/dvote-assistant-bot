@@ -42,4 +42,4 @@ async def telegram_webhook(req: Request):
 
     # Send confirmation
     await bot.send_message(chat_id, f"📝 Task saved: {text}")
-    return {"ok": True"}
+    return {"ok": True}
