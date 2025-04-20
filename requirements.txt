@@ -15,8 +15,8 @@ gitdb==4.0.12
 GitPython==3.1.44
 gotrue==1.2.0
 h11==0.14.0
-httpcore==0.16.3
-httpx==0.23.3
+httpcore==0.17.3
+httpx==0.24.1
 idna==3.10
 importlib-metadata==8.5.0
 importlib-resources==6.4.5
@@ -29,7 +29,7 @@ more-itertools==10.5.0
 nh3==0.2.21
 packaging==25.0
 pkginfo==1.12.1.2
-postgrest==0.10.8
+postgrest==0.17.0
 pydantic==2.10.6
 pydantic-core==2.27.2
 pygments==2.19.1
@@ -42,7 +42,7 @@ readme-renderer==43.0
 realtime==1.0.6
 requests==2.32.3
 requests-toolbelt==1.0.0
-rfc3986==1.5.0
+rfc3986==2.0.0
 semver==2.13.0
 six==1.17.0
 smmap==5.0.2
