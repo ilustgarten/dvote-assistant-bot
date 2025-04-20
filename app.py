@@ -15,7 +15,7 @@ async def telegram_webhook(req: Request):
     chat_id = data["message"]["chat"]["id"]
     text    = data["message"].get("text", "")
     # Echo for now
-    bot.send_message(chat_id, f"✅ Got: {text}")
+    await bot.send_message(chat_id, f"✅ Got: {text}")
     return {"ok": True}
 
 @app.get("/")                              # simple health check
