@@ -2,5 +2,5 @@ fastapi
 uvicorn
 python-telegram-bot==20.7
 python-dotenv
-supabase==1.0.3
-httpx==0.24.1
+supabase==2.5.3
+httpx==0.25.2
