@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
-from python_dotenv import load_dotenv
+from dotenv import load_dotenv
 from supabase import create_client, Client
 import os
 import logging
